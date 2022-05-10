@@ -38,7 +38,12 @@ module.exports = {
       {
         namedComponents: 'function-declaration'
       }
-    ]
+    ],
+    'react/jsx-filename-extension': [
+      2,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] }
+    ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
   },
 
   extends: [

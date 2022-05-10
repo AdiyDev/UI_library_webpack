@@ -1,1 +1,1 @@
-finance analytics project
+create my library in npm 
